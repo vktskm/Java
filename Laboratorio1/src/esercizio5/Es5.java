@@ -5,8 +5,8 @@ package esercizio5;
  * • inizializzi due variabili intere x e y;
  * • assegni alle variabili due valori a scelta;
  * • calcoli l’area del rettangolo di lati x e y;
- * • stampi a video le misure dei lati e l’area del rettangolo, in modo che l’output abbia la
- * forma seguente:
+ * • stampi a video le misure dei lati e l’area del rettangolo, 
+ * in modo che l’output abbia la forma seguente:
  * > Lato1 = (valore di x)
  * > Lato2 = (valore di y)
  * > Area = (area calcolata)

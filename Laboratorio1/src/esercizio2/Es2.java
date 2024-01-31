@@ -4,7 +4,8 @@ package esercizio2;
  * • definisca due variabili double x e y;
  * • assegni alle variabili i valori 125.0 e 85.3;
  * • stampi a video i valori di x e y, il loro prodotto e la loro divisione.
- * a) Cosa succede se le variabili vengono inizializzate con i valori 125 e 85 ?
+ * a) Cosa succede se le variabili vengono inizializzate con i valori 125 e 
+ * 85 ?
  * x vale 125.0, y vale 85.0
  * il loro prodotto vale 10625.0
  * e la loro divisione 1.4705882352941178

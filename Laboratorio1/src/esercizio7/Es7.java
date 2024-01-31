@@ -1,17 +1,21 @@
 package esercizio7;
 
 /*
- * Scrivere un programma Java che risolva le seguenti espressioni e ne stampi il risultato:
+ * Scrivere un programma Java che risolva le seguenti espressioni 
+ * e ne stampi il risultato:
  * (a)  (13 + 9 + 6 − 7) * 2
+ * (a)  (21) * 2
  * (b)  [(2 + 3) * 5] + [(2/3 + 5) * 4] + [3 * (7 + 5 − 13)]
+ * (b)  [25] + [(0 + 5) * 4] + [3 * ( − 1)]
  * (c)  [(3.4 + 5 − 6.3) * 4.3 + (3.5 ∗ (−4))] * 6
+ * (c)  [(2.1) * 4.3 + (−14))] * 6
  * (d)  (x + y) * (x − y)
- * (e)  x^2 + y^2
+ * (e)   x^2 + y^2
  *       (x + y) * (x − y)
  * (f)  ------------------
  *         (2x + y)^2
- * Dove necessario, inserire al posto delle variabili dei valori a piacere. Scegliere un tipo 
- * di dato adeguato per il risultato.
+ * Dove necessario, inserire al posto delle variabili dei valori a 
+ * piacere. Scegliere un tipo di dato adeguato per il risultato.
  * */
 public class Es7 {
 
@@ -56,7 +60,7 @@ public class Es7 {
 	     *  --------------
 	     *      (8)^2
 	     */  
-		double exprF = (x+y)*(x-y)/((2*x + y)*(2*x + y));
+		double exprF = (x+y)*(x-y)/((2*x + y)*(2*x + y));//-0.09796875
 		System.out.println("Il risultato dell'espressione F e' " + exprF);
 
 	}

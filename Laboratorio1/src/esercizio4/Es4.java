@@ -5,8 +5,8 @@ package esercizio4;
  * • definisca due variabili carattere x e y;
  * • assegni alla variabile x il valore ’a’, alla variabile y il valore ’b’;
  * • stampi a video la stringa ab.
- * NOTA: utilizzando solo l’operatore + il risultato e' numerico, in quanto i caratteri
- * vengono codificati come numeri.
+ * NOTA: utilizzando solo l’operatore + il risultato e' numerico, in quanto 
+ * i caratteri vengono codificati come numeri.
  * */
 public class Es4 {
 	
