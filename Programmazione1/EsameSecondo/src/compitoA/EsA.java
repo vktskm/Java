@@ -22,7 +22,7 @@ package compitoA;
  * 6. stampa a video il contenuto degli array interi e copiaInteri
  * 7. invoca il metodo valutaDifferenzeArray() (descritto sotto) passando come 
  * parametri l’array interi originale e l’array copiaInteri
- * 8. se il valore restituito da valutaDifferenzeArray() è 1, stampa un messaggio 
+ * 8. se il valore restituito da valutaDifferenzeArray() è -1, stampa un messaggio 
  * di errore; se il valore restituito da valutaDifferenzeArray() è 0, stampa a video 
  * il contenuto dell’array copiaInteri; in tutti gli altri casi, stampa a video il 
  * contenuto dell’array interi
@@ -33,7 +33,7 @@ public class EsA {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
         
-		// Controlla che ci siano 6 argomenti
+		  // Controlla che ci siano 6 argomenti
 	      if (args.length != 6) {
 	         System.out.println("Errore: devi inserire 6 numeri interi!");
 	         System.exit(0);
@@ -48,11 +48,13 @@ public class EsA {
 	      int n = Integer.parseInt(args[5]);
 	      
 	      // Controlla che tutti i numeri dati come argomenti siano positivi
-	      for (int i = 0; i < interi.length; i++)
+	      for (int i = 0; i < interi.length; i++) {
 	         if (interi[i] <= 0) {
 	            System.out.println("Errore: devi inserire 6 numeri interi!");
 	            System.exit(0);      
 	         }
+	      }
+	      
 	      if (n <= 0) {
 	         System.out.println("Errore: devi inserire 6 numeri interi!");
 	         System.exit(0);                

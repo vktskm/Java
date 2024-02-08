@@ -17,7 +17,7 @@ package compitoB;
  * 6. stampa a video il contenuto degli array caratteri e copiaCaratteri
  * 7. invoca il metodo valutaDifferenzeArray() (descritto sotto) passando come 
  * parametri l’array caratteri originale e l’array copiaCaratteri
- * 8. se il valore restituito da valutaDifferenzeArray() è 1, stampa un messaggio 
+ * 8. se il valore restituito da valutaDifferenzeArray() è -1, stampa un messaggio 
  * di errore; se il valore restituito da valutaDifferenzeArray() è 0, stampa a 
  * video il contenuto dell’array copiaCaratteri; in tutti gli altri casi, stampa a 
  * video il contenuto dell’array caratteri
@@ -29,11 +29,12 @@ public class EsB {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
         
-		// Controlla che ci siano 6 argomenti
+		  // Controlla che ci siano 6 argomenti
 	      if (args.length != 6) {
 	         System.out.println("Errore: devi inserire 6 caratteri!");
 	         System.exit(0);
 	      }
+	      
 	      // Controlla che gli argomenti siano singoli caratteri
 	      for (int i = 0; i < args.length; i++)
 	         if (args[i].length() != 1) {

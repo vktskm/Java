@@ -58,4 +58,6 @@ public class Metodi {
 	         risultato += par2[i];
 	      return risultato;
 	   }
-}
+	   
+	   
+ }

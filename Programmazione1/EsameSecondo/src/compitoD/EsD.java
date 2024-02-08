@@ -17,7 +17,6 @@ package compitoD;
  * b) stampa a video il risultato del metodo unisciArray()
  *******************************/
 
-import java.util.Scanner;
 
 public class EsD {
 
@@ -30,7 +29,24 @@ public class EsD {
 	      }
 
 	      String stringa = args[0];
-
+          
+	      
+	      boolean controllo = true;
+	      int k=0;
+			while(  k < stringa.length() && controllo) {
+				
+				if(  stringa.charAt(k) < 'a' ||  stringa.charAt(k) > 'z') 
+					controllo = false;
+				
+				k++;
+			}
+			
+	        if( !controllo ) {
+			    System.out.println("Devi inserire solamente caratteri nella stringa");
+				System.exit(1);
+			}
+	      
+	      
 	      // Calcola la lunghezza corretta dell'array pari
 	      int lunghezzaPari = 0;
 	      if (stringa.length() % 2 == 0)
